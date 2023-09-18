@@ -1,1 +1,59 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main_container {
+  width: 100%;
+  height: 100vh;
+  background: #57375D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+#main_container #calculator_container {
+  width: 360px;
+  height: 640px;
+  background: #FFC8C8;
+  box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.29);
+  border-radius: 10px;
+}
+#main_container #calculator_container #answer {
+  width: 90%;
+  margin: 20px auto 0;
+  padding: 20px 15px;
+  background: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: right;
+  border: 1px solid #FF3FA4;
+  border-radius: 5px;
+}
+#main_container #calculator_container #button_container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  align-content: start;
+  margin: 20px auto 0;
+  padding-top: 10px;
+  border-top: 1px solid #FF3FA4;
+}
+#main_container #calculator_container #button_container button {
+  padding: 20px;
+  border-radius: 15px;
+  border: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  background: #FF3FA4;
+  color: #fff;
+}
+#main_container #calculator_container #button_container button:hover {
+  background: #c02d7b;
+}
+#main_container #calculator_container #button_container .dbl_btn {
+  grid-column: 1/3;
+}/*# sourceMappingURL=main.css.map */
