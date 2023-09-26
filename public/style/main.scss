@@ -29,8 +29,8 @@
 
     #answer{
         width: 90%; 
-        margin: 20px auto 0; 
-        padding: 20px 15px;
+        margin: 20px auto; 
+        padding: 20px 15px ;
         background: #fff;
         font-size: 2.5rem;  
         font-weight: 500; 
@@ -43,10 +43,10 @@
         width: 90%; 
         display: grid;
         grid-template-columns: auto auto auto auto; 
-        gap: 10px;
+        gap: 15px 10px;
         align-content: start;
         margin: 20px auto 0; 
-        padding-top: 10px;
+        padding-top: 30px;
         border-top: 1px solid $pink; 
         button{
           padding: 20px; 
@@ -58,6 +58,9 @@
         color:#fff;
         &:hover{
             background: $pink-hover; 
+        }
+        &:focus {     
+            background-color:$orange;    
         }
         }
         .dbl_btn{

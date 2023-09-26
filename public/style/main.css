@@ -23,7 +23,7 @@
 }
 #main_container #calculator_container #answer {
   width: 90%;
-  margin: 20px auto 0;
+  margin: 20px auto;
   padding: 20px 15px;
   background: #fff;
   font-size: 2.5rem;
@@ -36,10 +36,10 @@
   width: 90%;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  gap: 10px;
+  gap: 15px 10px;
   align-content: start;
   margin: 20px auto 0;
-  padding-top: 10px;
+  padding-top: 30px;
   border-top: 1px solid #FF3FA4;
 }
 #main_container #calculator_container #button_container button {
@@ -53,6 +53,9 @@
 }
 #main_container #calculator_container #button_container button:hover {
   background: #c02d7b;
+}
+#main_container #calculator_container #button_container button:focus {
+  background-color: #FF9B82;
 }
 #main_container #calculator_container #button_container .dbl_btn {
   grid-column: 1/3;
